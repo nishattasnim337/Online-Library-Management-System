@@ -1,0 +1,136 @@
+.navbar{
+  background-color: #000;
+  .nav-item{
+         padding-left:1em;
+         margin-left: 0em;
+         margin-right: 0em;
+  .nav-link{
+  text-transform: uppercase;
+
+  }
+            }
+      }
+      #profile{
+        background: url('../img/index.jpeg');
+        position: relative;
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        min-height: 800px;
+      .darkoverlay{
+        background: rgba(0,0,0,0.5);
+        position: absolute;
+        top:0;
+        left:0;
+        height:100%;
+        width:100%;
+      }}
+
+//.............................Index page...........................................
+
+#indexhomesection{
+  background: url('../img/index.jpeg');
+  position: relative;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 800px;
+.darkoverlay{
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+}
+.box{
+  min-height:250px;
+  min-width: 400px;
+  top:auto;
+  background-color: #342a34aa;
+  margin:90px auto;
+}
+}
+
+//...................................................Student login section...........................
+#loginsection{
+  background: url('../img/login.jpg');
+  position: relative;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 800px;
+.darkoverlay{
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+}
+.loginbox{
+  mix-height:700px;
+  max-width: 600px;
+  top:auto;
+  background-color: #342a34aa;
+  margin:90px auto;
+}
+}
+
+//...................................registration page......................................
+
+
+#regsection{
+  background: url('../img/reg_img2.jpg');
+  position: relative;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 800px;
+.darkoverlay{
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+}
+.regbox{
+  mix-height:700px;
+  max-width: 600px;
+  top:auto;
+  background-color: #342a34aa;
+  margin:90px auto;
+}
+}
+//...................................................profile page.....................
+
+@media(max-width:767px)
+{
+
+  .nav-item{
+         padding-left:0em;}
+  .loginbox{
+    padding:0em;
+    .form{
+      padding: 0em;
+    }
+  }
+
+  body{
+    h1{
+
+      font-size: 30px;
+    }
+  }
+
+
+}
